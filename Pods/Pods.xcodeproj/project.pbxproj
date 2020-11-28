@@ -1,0 +1,1229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F91701446847B78CB7A5659616BE73A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */; };
+		345BE4AABFEFDE70112E0C7373CF81D0 /* DNRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA7C5A7EA32CE4C64E5C92B371F1FF /* DNRegisterView.m */; };
+		3A8C878225EC8175044F8EFBA259902F /* DNNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E7784B223FE3A042B4FD4D65A671BD /* DNNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6905E5F4C6D672905B987E0B2C167 /* DNRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BF84ADFF0CF47AA37FCF23B60D3183 /* DNRegisterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B91CF10ABC4F8FDD6F509E250A539F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */; };
+		4EC56473DA4A13A02426073A03612E8F /* DNRegister-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E29F818B560EDB56DBB17D6FC32ABCD8 /* DNRegister-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5156AE37D9F0680CC0F87C8DC6C8AFFC /* Pods-DNSubGroup1Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6700DC93808AB69BB58A4C8A952AB /* Pods-DNSubGroup1Tests-dummy.m */; };
+		5460DAADEEB914117B5E643E79D1C215 /* Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0982C1E02803575CFA29E189F207 /* Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m */; };
+		660FA8F8CD6799BF72F11896FAF131B5 /* Pods-DNSubGroup1Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDB42F7AE819D1606F8697CFFF31995 /* Pods-DNSubGroup1Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7818317B250BE27302090D1987F57F82 /* DNNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5410C44051D6EC9058754A43451D28D /* DNNetworking-dummy.m */; };
+		7A4092C219AE5FE79A7C5312D5CE0B61 /* DNRegister-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDB0F4008773158646B6B4A15DEAB8 /* DNRegister-dummy.m */; };
+		7B6F80C1A4868DDA1C8978CEE2068ACB /* DNNetView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF564404EF9DA88E0E2B8C382976A29B /* DNNetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A57A6984E670B85EF4B809DC78F2B9 /* Pods-DNSubGroup1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D7210957A870E6D2791861164C0B8F /* Pods-DNSubGroup1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		971B7F117347203FD3C8AB5718F515B0 /* Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D16D4B180085399D3375F9F33773C426 /* Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC3EA7172D37DCE4B188E48C7F6574F /* DNNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5ECA5634AC4B11A8C94AF0C2C9A7EE /* DNNetworking.framework */; };
+		D876CDD8F78F0E12F056FD340DC52A5D /* DNNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D372B655293AA8D2D0FC61F93F5C40 /* DNNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EC0E6EC7A4D2FB89F5D11339D8CF96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */; };
+		E8B112DDA84CC2B51E7C7B6BB097F89D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */; };
+		EC171A4A554CA86034DC7ED68A9151DE /* DNNetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C1892F714FB42A390B018C28A1E391 /* DNNetView.m */; };
+		ECB8DD6998FDBDE70BF97B57B250FA0C /* DNNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A8C583FB4495BC64FF8D65A8149E3C /* DNNetworking.m */; };
+		EDF0F2F7FCEF5CB83324A7FCFABA6C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */; };
+		F98049795CB39471CC7D0E189231C20C /* Pods-DNSubGroup1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E188BEEE5AC12FE1EFD905D9AE8295 /* Pods-DNSubGroup1-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C66C03E1BBDEF5E285CF825ADD1577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FC8A87D3E221948CB2AAC91B0D3C2B;
+			remoteInfo = DNNetworking;
+		};
+		0E1FB4237DD2B6D56171704FAC5FD0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D45B2B8DF36A1657EBAD72541A5C13;
+			remoteInfo = DNRegister;
+		};
+		55CDEE76FEA479B5BED8891B0F316270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28596991A55551CCABA97505347EBBF3;
+			remoteInfo = "Pods-DNSubGroup1";
+		};
+		7D9455365E12FC2A1475119C5F69F3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D45B2B8DF36A1657EBAD72541A5C13;
+			remoteInfo = DNRegister;
+		};
+		A2BB72302376070599F1BBA6AE285F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FC8A87D3E221948CB2AAC91B0D3C2B;
+			remoteInfo = DNNetworking;
+		};
+		A9106BDCB88E517606406FF4F57B59F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FC8A87D3E221948CB2AAC91B0D3C2B;
+			remoteInfo = DNNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0170A4217FAEE99CDB673D44CBE99A7B /* DNNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNNetworking.modulemap; sourceTree = "<group>"; };
+		01DF0C6AD1C5A5B3BEA5EBCF02A9FB8A /* Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06D372B655293AA8D2D0FC61F93F5C40 /* DNNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNNetworking-umbrella.h"; sourceTree = "<group>"; };
+		11EDB0F4008773158646B6B4A15DEAB8 /* DNRegister-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNRegister-dummy.m"; sourceTree = "<group>"; };
+		16E7784B223FE3A042B4FD4D65A671BD /* DNNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNNetworking.h; path = DNNetworking/Classes/DNNetworking.h; sourceTree = "<group>"; };
+		21BF84ADFF0CF47AA37FCF23B60D3183 /* DNRegisterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNRegisterView.h; path = DNRegister/Classes/DNRegisterView.h; sourceTree = "<group>"; };
+		221F97A2F46F31C294B85DE4C5123B13 /* DNNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DNNetworking-Info.plist"; sourceTree = "<group>"; };
+		2D5ECA5634AC4B11A8C94AF0C2C9A7EE /* DNNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DNNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C8D0EC68C8FA8FBC8ABDA46DA0929D /* Pods-DNSubGroup1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNSubGroup1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		399F538D64934BCB83D3E236879E2E29 /* Pods-DNSubGroup1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNSubGroup1.modulemap"; sourceTree = "<group>"; };
+		3B2449C0BE3D41482A993E26AE23B8E9 /* DNRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNRegister.framework; path = DNRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D039F4787DD535991CC80E2666C1319 /* Pods_DNSubGroup1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNSubGroup1.framework; path = "Pods-DNSubGroup1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2F0982C1E02803575CFA29E189F207 /* Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m"; sourceTree = "<group>"; };
+		48980663AAE3D0D70FA64ECD722D5F7C /* Pods-DNSubGroup1-DNSubGroup1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1-DNSubGroup1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		495EE822E96DA6898D92FD1B5B5580A6 /* Pods-DNSubGroup1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1.release.xcconfig"; sourceTree = "<group>"; };
+		51E188BEEE5AC12FE1EFD905D9AE8295 /* Pods-DNSubGroup1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNSubGroup1-dummy.m"; sourceTree = "<group>"; };
+		5206974C6C8578B3F7165398648A15C6 /* DNRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNRegister.debug.xcconfig; sourceTree = "<group>"; };
+		52CB4D74A7BAF09F43814213F7451166 /* Pods-DNSubGroup1-DNSubGroup1UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNSubGroup1-DNSubGroup1UITests.modulemap"; sourceTree = "<group>"; };
+		55581F2222F3067696AF22C15BF3BE94 /* DNNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C2D1D83F531FE252E32C3B8BB0B568 /* Pods_DNSubGroup1_DNSubGroup1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNSubGroup1_DNSubGroup1UITests.framework; path = "Pods-DNSubGroup1-DNSubGroup1UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D9D4CDEDCB932BC5BDDEB511C83C70 /* DNRegister.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNRegister.modulemap; sourceTree = "<group>"; };
+		67764B2673BEC12A99304924143EDAAD /* Pods-DNSubGroup1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1DB391EE4FAB3C4C6A2F06CE5D0CED /* Pods-DNSubGroup1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71E6700DC93808AB69BB58A4C8A952AB /* Pods-DNSubGroup1Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNSubGroup1Tests-dummy.m"; sourceTree = "<group>"; };
+		78CA7D191C42D7E9FFAA1A99E0CCE845 /* Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A556D1BF062B2544E235AFCF8A8D8C3 /* Pods-DNSubGroup1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F29B255D2F91346DD7950B985DE38E6 /* Pods-DNSubGroup1Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNSubGroup1Tests.modulemap"; sourceTree = "<group>"; };
+		7F9F15F4619CB152BAB0E957ADCFFC70 /* Pods-DNSubGroup1Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNSubGroup1Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		805905582396928DD38BAB2474343F9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8542640822202D3E75B5D626C6749D53 /* DNNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNNetworking-prefix.pch"; sourceTree = "<group>"; };
+		89A39E314A6831F7D9DB31D45757FA38 /* Pods-DNSubGroup1-DNSubGroup1UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNSubGroup1-DNSubGroup1UITests-frameworks.sh"; sourceTree = "<group>"; };
+		8EB09E8449CB8321FBD7CA728B46A8B4 /* Pods-DNSubGroup1-DNSubGroup1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1-DNSubGroup1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90A42862F9FB4CAC69EF15D5B7FB3F04 /* Pods-DNSubGroup1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNSubGroup1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		96B3FDDE45EBE3814CF40B677ECB517E /* DNRegister-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNRegister-prefix.pch"; sourceTree = "<group>"; };
+		9A3053845AA01A6511ED342C1928ECEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9B18BA35D8D84B734355D25D4DB9D91F /* DNRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNRegister.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B048F6F3006C1FC56C5FD7DDA2C1C171 /* Pods-DNSubGroup1Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0637FDDDB01C508529314ED9EE160C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0A8C583FB4495BC64FF8D65A8149E3C /* DNNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNNetworking.m; path = DNNetworking/Classes/DNNetworking.m; sourceTree = "<group>"; };
+		B126A3253D7B42959FAB56C81F2A89D4 /* DNNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DNNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE2D6451D1F2291D817E949CBA10045 /* DNNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNNetworking.framework; path = DNNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCE2B549202F61FB826474728E65F53 /* Pods_DNSubGroup1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNSubGroup1Tests.framework; path = "Pods-DNSubGroup1Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB42F7AE819D1606F8697CFFF31995 /* Pods-DNSubGroup1Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNSubGroup1Tests-umbrella.h"; sourceTree = "<group>"; };
+		CF564404EF9DA88E0E2B8C382976A29B /* DNNetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNNetView.h; path = DNNetworking/Classes/DNNetView.h; sourceTree = "<group>"; };
+		CFF5F94C5C3FD7E6611E7DCBD7109C6E /* DNNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNNetworking.release.xcconfig; sourceTree = "<group>"; };
+		D0E0BFBF20A024839283701242060789 /* DNRegister.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DNRegister.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D16D4B180085399D3375F9F33773C426 /* Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h"; sourceTree = "<group>"; };
+		D2D7210957A870E6D2791861164C0B8F /* Pods-DNSubGroup1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNSubGroup1-umbrella.h"; sourceTree = "<group>"; };
+		D48B0181BBC57037B33B8340FB01D82C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5410C44051D6EC9058754A43451D28D /* DNNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNNetworking-dummy.m"; sourceTree = "<group>"; };
+		DDA43EB5CF856E052C3F512E6B355FF0 /* Pods-DNSubGroup1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNSubGroup1-frameworks.sh"; sourceTree = "<group>"; };
+		E29F818B560EDB56DBB17D6FC32ABCD8 /* DNRegister-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNRegister-umbrella.h"; sourceTree = "<group>"; };
+		E5C1892F714FB42A390B018C28A1E391 /* DNNetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNNetView.m; path = DNNetworking/Classes/DNNetView.m; sourceTree = "<group>"; };
+		E6913F47ACDEE4F91890D7A2DF2AEC25 /* Pods-DNSubGroup1Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1Tests-Info.plist"; sourceTree = "<group>"; };
+		F11106377CBDCEF1AB0E802D4D34ABD1 /* Pods-DNSubGroup1-DNSubGroup1UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1-DNSubGroup1UITests-Info.plist"; sourceTree = "<group>"; };
+		F4DA7C5A7EA32CE4C64E5C92B371F1FF /* DNRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNRegisterView.m; path = DNRegister/Classes/DNRegisterView.m; sourceTree = "<group>"; };
+		F56D4A0A196B5B77852493356BB578AD /* DNRegister-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DNRegister-Info.plist"; sourceTree = "<group>"; };
+		FD37706F075B57532661167E53C30DCC /* Pods-DNSubGroup1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNSubGroup1-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179918E309B70C81BA22690B120032B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F91701446847B78CB7A5659616BE73A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7ADD4023ED69B868BC847BF86666F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B91CF10ABC4F8FDD6F509E250A539F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F57138D0B93650640A092536E2674C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3EA7172D37DCE4B188E48C7F6574F /* DNNetworking.framework in Frameworks */,
+				E3EC0E6EC7A4D2FB89F5D11339D8CF96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18D1C5403ED8D8932679BBE6CA27811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF0F2F7FCEF5CB83324A7FCFABA6C2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE50A6674A89ECA35CE0841D9439AD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B112DDA84CC2B51E7C7B6BB097F89D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D598BD4097068784E1D4636359C7DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57FF8128DABBD13E5784FCD3352A0D08 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0F4F40D974D0CAF74EEF082300582906 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0170A4217FAEE99CDB673D44CBE99A7B /* DNNetworking.modulemap */,
+				D5410C44051D6EC9058754A43451D28D /* DNNetworking-dummy.m */,
+				221F97A2F46F31C294B85DE4C5123B13 /* DNNetworking-Info.plist */,
+				8542640822202D3E75B5D626C6749D53 /* DNNetworking-prefix.pch */,
+				06D372B655293AA8D2D0FC61F93F5C40 /* DNNetworking-umbrella.h */,
+				55581F2222F3067696AF22C15BF3BE94 /* DNNetworking.debug.xcconfig */,
+				CFF5F94C5C3FD7E6611E7DCBD7109C6E /* DNNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DNNetworking";
+			sourceTree = "<group>";
+		};
+		1A4BBB7C744BB44C54F63182227A6B3A /* DNNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CF564404EF9DA88E0E2B8C382976A29B /* DNNetView.h */,
+				E5C1892F714FB42A390B018C28A1E391 /* DNNetView.m */,
+				16E7784B223FE3A042B4FD4D65A671BD /* DNNetworking.h */,
+				B0A8C583FB4495BC64FF8D65A8149E3C /* DNNetworking.m */,
+				84B85DED85B0E490EF2B0FE8B1FCC9E1 /* Pod */,
+				0F4F40D974D0CAF74EEF082300582906 /* Support Files */,
+			);
+			name = DNNetworking;
+			path = ../Lib/DNNetworking;
+			sourceTree = "<group>";
+		};
+		3C194F179AD407EB77BEDCAB301F1A1D /* DNRegister */ = {
+			isa = PBXGroup;
+			children = (
+				21BF84ADFF0CF47AA37FCF23B60D3183 /* DNRegisterView.h */,
+				F4DA7C5A7EA32CE4C64E5C92B371F1FF /* DNRegisterView.m */,
+				E994BB302E71EA9BA5E64604810B655A /* Pod */,
+				A305B269155E0B24261B43A7CC4F09CD /* Support Files */,
+			);
+			name = DNRegister;
+			path = ../Lib/DNRegister;
+			sourceTree = "<group>";
+		};
+		40F30C91D284F708F7D9BE5691CFCE31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				769506DE971CC1B5E89FCD7C3DE3F3DE /* Pods-DNSubGroup1 */,
+				BE7F84357B6634800EEAD6EE26BF42D8 /* Pods-DNSubGroup1-DNSubGroup1UITests */,
+				46FD5A33D3542B1A565E57D5E85FC35C /* Pods-DNSubGroup1Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46FD5A33D3542B1A565E57D5E85FC35C /* Pods-DNSubGroup1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7F29B255D2F91346DD7950B985DE38E6 /* Pods-DNSubGroup1Tests.modulemap */,
+				7F9F15F4619CB152BAB0E957ADCFFC70 /* Pods-DNSubGroup1Tests-acknowledgements.markdown */,
+				B048F6F3006C1FC56C5FD7DDA2C1C171 /* Pods-DNSubGroup1Tests-acknowledgements.plist */,
+				71E6700DC93808AB69BB58A4C8A952AB /* Pods-DNSubGroup1Tests-dummy.m */,
+				E6913F47ACDEE4F91890D7A2DF2AEC25 /* Pods-DNSubGroup1Tests-Info.plist */,
+				CCDB42F7AE819D1606F8697CFFF31995 /* Pods-DNSubGroup1Tests-umbrella.h */,
+				6E1DB391EE4FAB3C4C6A2F06CE5D0CED /* Pods-DNSubGroup1Tests.debug.xcconfig */,
+				90A42862F9FB4CAC69EF15D5B7FB3F04 /* Pods-DNSubGroup1Tests.release.xcconfig */,
+			);
+			name = "Pods-DNSubGroup1Tests";
+			path = "Target Support Files/Pods-DNSubGroup1Tests";
+			sourceTree = "<group>";
+		};
+		735915FB0A9CDF3974CA4936CE843DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5ECA5634AC4B11A8C94AF0C2C9A7EE /* DNNetworking.framework */,
+				04D598BD4097068784E1D4636359C7DA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		769506DE971CC1B5E89FCD7C3DE3F3DE /* Pods-DNSubGroup1 */ = {
+			isa = PBXGroup;
+			children = (
+				399F538D64934BCB83D3E236879E2E29 /* Pods-DNSubGroup1.modulemap */,
+				30C8D0EC68C8FA8FBC8ABDA46DA0929D /* Pods-DNSubGroup1-acknowledgements.markdown */,
+				7A556D1BF062B2544E235AFCF8A8D8C3 /* Pods-DNSubGroup1-acknowledgements.plist */,
+				51E188BEEE5AC12FE1EFD905D9AE8295 /* Pods-DNSubGroup1-dummy.m */,
+				DDA43EB5CF856E052C3F512E6B355FF0 /* Pods-DNSubGroup1-frameworks.sh */,
+				FD37706F075B57532661167E53C30DCC /* Pods-DNSubGroup1-Info.plist */,
+				D2D7210957A870E6D2791861164C0B8F /* Pods-DNSubGroup1-umbrella.h */,
+				67764B2673BEC12A99304924143EDAAD /* Pods-DNSubGroup1.debug.xcconfig */,
+				495EE822E96DA6898D92FD1B5B5580A6 /* Pods-DNSubGroup1.release.xcconfig */,
+			);
+			name = "Pods-DNSubGroup1";
+			path = "Target Support Files/Pods-DNSubGroup1";
+			sourceTree = "<group>";
+		};
+		84B85DED85B0E490EF2B0FE8B1FCC9E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B126A3253D7B42959FAB56C81F2A89D4 /* DNNetworking.podspec */,
+				9A3053845AA01A6511ED342C1928ECEC /* LICENSE */,
+				D48B0181BBC57037B33B8340FB01D82C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A305B269155E0B24261B43A7CC4F09CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D9D4CDEDCB932BC5BDDEB511C83C70 /* DNRegister.modulemap */,
+				11EDB0F4008773158646B6B4A15DEAB8 /* DNRegister-dummy.m */,
+				F56D4A0A196B5B77852493356BB578AD /* DNRegister-Info.plist */,
+				96B3FDDE45EBE3814CF40B677ECB517E /* DNRegister-prefix.pch */,
+				E29F818B560EDB56DBB17D6FC32ABCD8 /* DNRegister-umbrella.h */,
+				5206974C6C8578B3F7165398648A15C6 /* DNRegister.debug.xcconfig */,
+				9B18BA35D8D84B734355D25D4DB9D91F /* DNRegister.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DNRegister";
+			sourceTree = "<group>";
+		};
+		AC997AE1963279042A580A1747A8B107 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A4BBB7C744BB44C54F63182227A6B3A /* DNNetworking */,
+				3C194F179AD407EB77BEDCAB301F1A1D /* DNRegister */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BE7F84357B6634800EEAD6EE26BF42D8 /* Pods-DNSubGroup1-DNSubGroup1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				52CB4D74A7BAF09F43814213F7451166 /* Pods-DNSubGroup1-DNSubGroup1UITests.modulemap */,
+				01DF0C6AD1C5A5B3BEA5EBCF02A9FB8A /* Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.markdown */,
+				78CA7D191C42D7E9FFAA1A99E0CCE845 /* Pods-DNSubGroup1-DNSubGroup1UITests-acknowledgements.plist */,
+				3F2F0982C1E02803575CFA29E189F207 /* Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m */,
+				89A39E314A6831F7D9DB31D45757FA38 /* Pods-DNSubGroup1-DNSubGroup1UITests-frameworks.sh */,
+				F11106377CBDCEF1AB0E802D4D34ABD1 /* Pods-DNSubGroup1-DNSubGroup1UITests-Info.plist */,
+				D16D4B180085399D3375F9F33773C426 /* Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h */,
+				8EB09E8449CB8321FBD7CA728B46A8B4 /* Pods-DNSubGroup1-DNSubGroup1UITests.debug.xcconfig */,
+				48980663AAE3D0D70FA64ECD722D5F7C /* Pods-DNSubGroup1-DNSubGroup1UITests.release.xcconfig */,
+			);
+			name = "Pods-DNSubGroup1-DNSubGroup1UITests";
+			path = "Target Support Files/Pods-DNSubGroup1-DNSubGroup1UITests";
+			sourceTree = "<group>";
+		};
+		C34677D90AC17D2F26D2C6C5E8E1A71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE2D6451D1F2291D817E949CBA10045 /* DNNetworking.framework */,
+				3B2449C0BE3D41482A993E26AE23B8E9 /* DNRegister.framework */,
+				3D039F4787DD535991CC80E2666C1319 /* Pods_DNSubGroup1.framework */,
+				63C2D1D83F531FE252E32C3B8BB0B568 /* Pods_DNSubGroup1_DNSubGroup1UITests.framework */,
+				BCCE2B549202F61FB826474728E65F53 /* Pods_DNSubGroup1Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AC997AE1963279042A580A1747A8B107 /* Development Pods */,
+				735915FB0A9CDF3974CA4936CE843DE9 /* Frameworks */,
+				C34677D90AC17D2F26D2C6C5E8E1A71A /* Products */,
+				40F30C91D284F708F7D9BE5691CFCE31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E994BB302E71EA9BA5E64604810B655A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0BFBF20A024839283701242060789 /* DNRegister.podspec */,
+				805905582396928DD38BAB2474343F9C /* LICENSE */,
+				B0637FDDDB01C508529314ED9EE160C1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76BB780527CCAC52B23A85D701EA7CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6F80C1A4868DDA1C8978CEE2068ACB /* DNNetView.h in Headers */,
+				D876CDD8F78F0E12F056FD340DC52A5D /* DNNetworking-umbrella.h in Headers */,
+				3A8C878225EC8175044F8EFBA259902F /* DNNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4FD5524652551EFD32B404CD81F747 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971B7F117347203FD3C8AB5718F515B0 /* Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5DA6CB5EA4889D4E867BD20B39E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A57A6984E670B85EF4B809DC78F2B9 /* Pods-DNSubGroup1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D008A4F760D51EF5222CE874905A0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660FA8F8CD6799BF72F11896FAF131B5 /* Pods-DNSubGroup1Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AC497F1ED5BC0C8BB048907E45CAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC56473DA4A13A02426073A03612E8F /* DNRegister-umbrella.h in Headers */,
+				3AC6905E5F4C6D672905B987E0B2C167 /* DNRegisterView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09F6162A85A19B2C009BA4E52F74942B /* Pods-DNSubGroup1-DNSubGroup1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7EE45201F078BC16249035D588C248 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1-DNSubGroup1UITests" */;
+			buildPhases = (
+				BB4FD5524652551EFD32B404CD81F747 /* Headers */,
+				0AE24D1EC55AC1073D732C89E6719FC1 /* Sources */,
+				3DC7ADD4023ED69B868BC847BF86666F /* Frameworks */,
+				AB11A3A447D0F667361E58154C5A60FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4D4922A61862C79BFBDCC3E0FBFBFC /* PBXTargetDependency */,
+				DD4E4692EC242AE23DAC50022D4B6F78 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNSubGroup1-DNSubGroup1UITests";
+			productName = "Pods-DNSubGroup1-DNSubGroup1UITests";
+			productReference = 63C2D1D83F531FE252E32C3B8BB0B568 /* Pods_DNSubGroup1_DNSubGroup1UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28596991A55551CCABA97505347EBBF3 /* Pods-DNSubGroup1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900DC76FB62325BAA20DF21875725785 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1" */;
+			buildPhases = (
+				C9B5DA6CB5EA4889D4E867BD20B39E49 /* Headers */,
+				A2BBB7237D5F4C2D62C5B161F329C827 /* Sources */,
+				EE50A6674A89ECA35CE0841D9439AD68 /* Frameworks */,
+				466C8F424E5536F6D00891F857CDC38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E317703F77C2E2BAB04518EC6369EC4 /* PBXTargetDependency */,
+				B0A2F6BB214CC57FF5DC584C17F96D20 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNSubGroup1";
+			productName = "Pods-DNSubGroup1";
+			productReference = 3D039F4787DD535991CC80E2666C1319 /* Pods_DNSubGroup1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D95426C599BCFE5780EE9192097241D /* Pods-DNSubGroup1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D0E1255CFC521D2747A29947C1C039 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1Tests" */;
+			buildPhases = (
+				D1D008A4F760D51EF5222CE874905A0D /* Headers */,
+				2ABA631CA2689F56F9FC2054A916F9F7 /* Sources */,
+				179918E309B70C81BA22690B120032B9 /* Frameworks */,
+				9CE3B040BDC989DB67E65519A38EDDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C0AFB58F7829BFBD4BA0C216FB4817 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNSubGroup1Tests";
+			productName = "Pods-DNSubGroup1Tests";
+			productReference = BCCE2B549202F61FB826474728E65F53 /* Pods_DNSubGroup1Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8FC8A87D3E221948CB2AAC91B0D3C2B /* DNNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2E10362C07454271B4C6C2DBF8AF8B /* Build configuration list for PBXNativeTarget "DNNetworking" */;
+			buildPhases = (
+				76BB780527CCAC52B23A85D701EA7CEA /* Headers */,
+				E366610366AFEA25D813692AAA0CFCA3 /* Sources */,
+				D18D1C5403ED8D8932679BBE6CA27811 /* Frameworks */,
+				E02975685A2714A35766924A65BAADF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNNetworking;
+			productName = DNNetworking;
+			productReference = BBE2D6451D1F2291D817E949CBA10045 /* DNNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6D45B2B8DF36A1657EBAD72541A5C13 /* DNRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0795F65FCBF3C8246DD50891C209A248 /* Build configuration list for PBXNativeTarget "DNRegister" */;
+			buildPhases = (
+				EC9AC497F1ED5BC0C8BB048907E45CAE /* Headers */,
+				A88BC8BFCE61C7E06FDED175754023BF /* Sources */,
+				47F57138D0B93650640A092536E2674C /* Frameworks */,
+				B61258CC126EA90825D2E71D2DFF3875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AAEA4ADB15E77B3A574460923B3BEB /* PBXTargetDependency */,
+			);
+			name = DNRegister;
+			productName = DNRegister;
+			productReference = 3B2449C0BE3D41482A993E26AE23B8E9 /* DNRegister.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C34677D90AC17D2F26D2C6C5E8E1A71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FC8A87D3E221948CB2AAC91B0D3C2B /* DNNetworking */,
+				C6D45B2B8DF36A1657EBAD72541A5C13 /* DNRegister */,
+				28596991A55551CCABA97505347EBBF3 /* Pods-DNSubGroup1 */,
+				09F6162A85A19B2C009BA4E52F74942B /* Pods-DNSubGroup1-DNSubGroup1UITests */,
+				2D95426C599BCFE5780EE9192097241D /* Pods-DNSubGroup1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466C8F424E5536F6D00891F857CDC38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE3B040BDC989DB67E65519A38EDDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB11A3A447D0F667361E58154C5A60FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61258CC126EA90825D2E71D2DFF3875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02975685A2714A35766924A65BAADF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE24D1EC55AC1073D732C89E6719FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5460DAADEEB914117B5E643E79D1C215 /* Pods-DNSubGroup1-DNSubGroup1UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ABA631CA2689F56F9FC2054A916F9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5156AE37D9F0680CC0F87C8DC6C8AFFC /* Pods-DNSubGroup1Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBB7237D5F4C2D62C5B161F329C827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98049795CB39471CC7D0E189231C20C /* Pods-DNSubGroup1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88BC8BFCE61C7E06FDED175754023BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4092C219AE5FE79A7C5312D5CE0B61 /* DNRegister-dummy.m in Sources */,
+				345BE4AABFEFDE70112E0C7373CF81D0 /* DNRegisterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366610366AFEA25D813692AAA0CFCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC171A4A554CA86034DC7ED68A9151DE /* DNNetView.m in Sources */,
+				7818317B250BE27302090D1987F57F82 /* DNNetworking-dummy.m in Sources */,
+				ECB8DD6998FDBDE70BF97B57B250FA0C /* DNNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AAEA4ADB15E77B3A574460923B3BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNNetworking;
+			target = B8FC8A87D3E221948CB2AAC91B0D3C2B /* DNNetworking */;
+			targetProxy = A9106BDCB88E517606406FF4F57B59F4 /* PBXContainerItemProxy */;
+		};
+		0E317703F77C2E2BAB04518EC6369EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNNetworking;
+			target = B8FC8A87D3E221948CB2AAC91B0D3C2B /* DNNetworking */;
+			targetProxy = A2BB72302376070599F1BBA6AE285F02 /* PBXContainerItemProxy */;
+		};
+		48C0AFB58F7829BFBD4BA0C216FB4817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DNSubGroup1";
+			target = 28596991A55551CCABA97505347EBBF3 /* Pods-DNSubGroup1 */;
+			targetProxy = 55CDEE76FEA479B5BED8891B0F316270 /* PBXContainerItemProxy */;
+		};
+		AA4D4922A61862C79BFBDCC3E0FBFBFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNNetworking;
+			target = B8FC8A87D3E221948CB2AAC91B0D3C2B /* DNNetworking */;
+			targetProxy = 03C66C03E1BBDEF5E285CF825ADD1577 /* PBXContainerItemProxy */;
+		};
+		B0A2F6BB214CC57FF5DC584C17F96D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNRegister;
+			target = C6D45B2B8DF36A1657EBAD72541A5C13 /* DNRegister */;
+			targetProxy = 7D9455365E12FC2A1475119C5F69F3B6 /* PBXContainerItemProxy */;
+		};
+		DD4E4692EC242AE23DAC50022D4B6F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNRegister;
+			target = C6D45B2B8DF36A1657EBAD72541A5C13 /* DNRegister */;
+			targetProxy = 0E1FB4237DD2B6D56171704FAC5FD0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15E33D7F0A5295F9A9C75FB62AB62B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB09E8449CB8321FBD7CA728B46A8B4 /* Pods-DNSubGroup1-DNSubGroup1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1-DNSubGroup1UITests/Pods-DNSubGroup1-DNSubGroup1UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1-DNSubGroup1UITests/Pods-DNSubGroup1-DNSubGroup1UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E5AA49BF2039759B0F58A393B72DF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF5F94C5C3FD7E6611E7DCBD7109C6E /* DNNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNNetworking/DNNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNNetworking/DNNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DNNetworking/DNNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DNNetworking;
+				PRODUCT_NAME = DNNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B4D8FAA17173D860457F98B340DCDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5206974C6C8578B3F7165398648A15C6 /* DNRegister.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNRegister/DNRegister-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNRegister/DNRegister-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DNRegister/DNRegister.modulemap";
+				PRODUCT_MODULE_NAME = DNRegister;
+				PRODUCT_NAME = DNRegister;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79B4638936F5015C431473BCA08CB53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B18BA35D8D84B734355D25D4DB9D91F /* DNRegister.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNRegister/DNRegister-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNRegister/DNRegister-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DNRegister/DNRegister.modulemap";
+				PRODUCT_MODULE_NAME = DNRegister;
+				PRODUCT_NAME = DNRegister;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C43759E9FA14097E064D08604D7FB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67764B2673BEC12A99304924143EDAAD /* Pods-DNSubGroup1.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1/Pods-DNSubGroup1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1/Pods-DNSubGroup1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83E06DBC3E00F1419D25048C622C7895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495EE822E96DA6898D92FD1B5B5580A6 /* Pods-DNSubGroup1.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1/Pods-DNSubGroup1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1/Pods-DNSubGroup1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		922C8359306D0A3B8ED7131B46F5A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D832C8FC372204ACDCC9FE9C0FC41919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D920657A89509729C55DD5CBFB50AA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A42862F9FB4CAC69EF15D5B7FB3F04 /* Pods-DNSubGroup1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1Tests/Pods-DNSubGroup1Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1Tests/Pods-DNSubGroup1Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E947C30452D3CF6FD6EC862B60C49C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1DB391EE4FAB3C4C6A2F06CE5D0CED /* Pods-DNSubGroup1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1Tests/Pods-DNSubGroup1Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1Tests/Pods-DNSubGroup1Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1C1EAEE67661FFC5CC086CF8B552EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48980663AAE3D0D70FA64ECD722D5F7C /* Pods-DNSubGroup1-DNSubGroup1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNSubGroup1-DNSubGroup1UITests/Pods-DNSubGroup1-DNSubGroup1UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNSubGroup1-DNSubGroup1UITests/Pods-DNSubGroup1-DNSubGroup1UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBEB591EB809CA917F7C5E79E00E78AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55581F2222F3067696AF22C15BF3BE94 /* DNNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNNetworking/DNNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNNetworking/DNNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DNNetworking/DNNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DNNetworking;
+				PRODUCT_NAME = DNNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0795F65FCBF3C8246DD50891C209A248 /* Build configuration list for PBXNativeTarget "DNRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4D8FAA17173D860457F98B340DCDD1 /* Debug */,
+				79B4638936F5015C431473BCA08CB53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7EE45201F078BC16249035D588C248 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1-DNSubGroup1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E33D7F0A5295F9A9C75FB62AB62B08 /* Debug */,
+				F1C1EAEE67661FFC5CC086CF8B552EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2E10362C07454271B4C6C2DBF8AF8B /* Build configuration list for PBXNativeTarget "DNNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEB591EB809CA917F7C5E79E00E78AE /* Debug */,
+				2E5AA49BF2039759B0F58A393B72DF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922C8359306D0A3B8ED7131B46F5A721 /* Debug */,
+				D832C8FC372204ACDCC9FE9C0FC41919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D0E1255CFC521D2747A29947C1C039 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947C30452D3CF6FD6EC862B60C49C3A /* Debug */,
+				D920657A89509729C55DD5CBFB50AA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900DC76FB62325BAA20DF21875725785 /* Build configuration list for PBXNativeTarget "Pods-DNSubGroup1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C43759E9FA14097E064D08604D7FB10 /* Debug */,
+				83E06DBC3E00F1419D25048C622C7895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

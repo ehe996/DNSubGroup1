@@ -1,0 +1,6 @@
+framework module Pods_DNSubGroup1_DNSubGroup1UITests {
+  umbrella header "Pods-DNSubGroup1-DNSubGroup1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

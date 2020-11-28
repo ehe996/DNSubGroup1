@@ -1,0 +1,22 @@
+PODS:
+  - DNNetworking (0.1.0)
+  - DNRegister (0.1.0):
+    - DNNetworking
+
+DEPENDENCIES:
+  - DNNetworking (from `Lib/DNNetworking`)
+  - DNRegister (from `Lib/DNRegister`)
+
+EXTERNAL SOURCES:
+  DNNetworking:
+    :path: Lib/DNNetworking
+  DNRegister:
+    :path: Lib/DNRegister
+
+SPEC CHECKSUMS:
+  DNNetworking: 3314f98d63e24c74ecc63b9166ac33f74d1f06ef
+  DNRegister: 8ea3639d6b1b5959efa77c51e2c77b80792e8faa
+
+PODFILE CHECKSUM: 78619a52aecf80c934c929603410bded84463b93
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module DNRegister {
+  umbrella header "DNRegister-umbrella.h"
+
+  export *
+  module * { export * }
+}

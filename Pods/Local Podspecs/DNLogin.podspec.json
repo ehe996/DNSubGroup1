@@ -1,0 +1,27 @@
+{
+  "name": "DNLogin",
+  "version": "0.1.0",
+  "summary": "A short description of DNLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hejunhe/DNLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hejunhe": "928510851@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hejunhe/DNLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DNLogin/Classes/**/*",
+  "dependencies": {
+    "DNNetworking": [
+
+    ]
+  }
+}
